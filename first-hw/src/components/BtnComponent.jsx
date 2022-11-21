@@ -1,5 +1,7 @@
-const BtnComponent = (prompt) => {
-    <button>{prompt.content}</button>
-}
+const BtnComponent = (props) => (
+    <div>
+    <button>{props.content}</button>
+    </div>
+)
 
 export default BtnComponent
