@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       
-      <BtnComponent onClick={function() {alert("you saved the kitten");}} content="save kitten"/>
+      <BtnComponent content="save kitten"/>
       <ImgComponent />
     </div>
     
